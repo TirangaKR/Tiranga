@@ -1,0 +1,102 @@
+@keyframes logoAnim {
+    44% {
+        filter: none;
+    }
+
+    45% {
+        filter: grayscale(1);
+    }
+
+    46% {
+        filter: none;
+    }
+
+    47% {
+        filter: none;
+    }
+
+    48% {
+        filter: grayscale(1);
+    }
+
+    49% {
+        filter: none;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+* {
+    margin: 0;
+    user-select: none;
+    pointer-events: all;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(15, 15, 15);
+    overflow: hidden;
+}
+
+#logoimg,
+#logoimg-shadow {
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    animation: linear 5s logoAnim infinite;
+    pointer-events: none;
+}
+
+#logoimg-shadow {
+    box-shadow: none;
+    z-index: -1;
+    transform: scale(5);
+    filter: blur(3px) brightness(0.5);
+    animation: none;
+}
+
+.text {
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#load-text {
+    position: absolute;
+    left: 2vw;
+    bottom: 2vh;
+    width: 96vw;
+    text-align: left;
+    margin: auto;
+    animation: ease-in 1.25s blink infinite;
+}
+
+#title-text {
+    position: absolute;
+    top: 2vw;
+    right: 2vh;
+    margin: auto;
+}
