@@ -1,4 +1,6 @@
-Tiranga's Own Clan Client
+<img src="./build/icon.png" width="100px">
+
+# Tiranga Client
 
 ### Discord Server: https://discord.gg/Drp2udwUra
 
