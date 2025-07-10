@@ -14,3 +14,13 @@ This client aims for:
 | Windows | `exe` |
 | macOS | `dmg` |
 | Linux | `AppImage` |
+
+## Development
+- Requires [NodeJS](https://nodejs.org/en)
+- Download source [as zip](https://github.com/TirangaKR/Tiranga/archive/refs/heads/main.zip) or using git.
+- extract and cd into the folder.
+- `npm i` to install dependencies.
+- `npm start` to test client.
+
+## Building from source
+Coming soon
