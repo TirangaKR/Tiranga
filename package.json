@@ -15,7 +15,7 @@
     "krunkerio"
   ],
   "author": "Ghosty, BluZed",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "dependencies": {
     "v8-compile-cache": "^2.4.0"
   }
