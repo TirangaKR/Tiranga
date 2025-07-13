@@ -3,8 +3,8 @@
 # Tiranga Client
 
 > currently in development
-> 
-### Discord Server: https://discord.gg/Drp2udwUra
+
+##### [Discord Server](https://discord.gg/Drp2udwUra)
 
 This client aims for:
 - Stable behavior and performance
@@ -16,6 +16,10 @@ This client aims for:
 | Windows | `exe` |
 | macOS | `dmg` |
 | Linux | `AppImage` |
+
+## Credits
+- The [Electron](https://www.electronjs.org/) Framework
+- [KraXen72/crankshaft](https://github.com/KraXen72/crankshaft) Krunker Client
 
 ## Development
 - Requires [NodeJS](https://nodejs.org/en)

@@ -1,0 +1,44 @@
+{
+	"userConfigPath": {
+		"type": "string",
+		"allowed_values": ["userData", "documents"],
+		"default": 0
+	},
+	"safeFlags_removeUselessFeatures": {
+		"type": "boolean",
+		"default": true
+	},
+	"safeFlags_helpfulFlags": {
+		"type": "boolean",
+		"default": true
+	},
+	"experimentalFlags_increaseLimits": {
+		"type": "boolean",
+		"default": false
+	},
+	"experimentalFlags_lowLatency": {
+		"type": "boolean",
+		"default": false
+	},
+	"experimentalFlags_experimental": {
+		"type": "boolean",
+		"default": false
+	},
+	"safeFlags_gpuRasterizing": {
+		"type": "boolean",
+		"default": false
+	},
+	"fpsUncap": {
+		"type": "boolean",
+		"default": true
+	},
+	"inProcessGPU": {
+		"type": "boolean",
+		"default": false
+	},
+	"angle_backend": {
+		"type": "string",
+		"allowed_values": ["default", "gl", "vulkan", "metal", "d3d11", "d3d9", "d3d11on12"],
+		"default": 0
+	}
+}
