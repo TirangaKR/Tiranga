@@ -2,6 +2,8 @@
 
 # Tiranga Client
 
+> currently in development
+> 
 ### Discord Server: https://discord.gg/Drp2udwUra
 
 This client aims for:
